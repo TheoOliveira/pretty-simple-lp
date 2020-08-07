@@ -4,5 +4,6 @@
 - Define Fonts
 - Define Images
 - Define Content
-- Create Design Proto.
-- Create MVP in REACTJS.
+- Create Design Proto
+- Create MVP in REACTJS
+- Set to domain
