@@ -1,0 +1,89 @@
+:root {
+  --lightSteelBlue: #b4aee8;
+  --lavender: #f0eefa;
+  --thistle: #c7c1db;
+  --darkSlateBlue: #4440b3;
+  --darkGray: #979ea9;
+}
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap&family=Open+Sans:wght@300&display=swap");
+h1-h4 {
+  font-family: "Archivo Black", sans-serif;
+}
+p,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding:24px;
+  margin: 0 auto;
+  background-color: var(--lavender);
+}
+a {
+  text-decoration: none;
+  color: black;
+  
+}
+a:hover {
+    transition: 0.3s;
+    color:var(--darkGray);
+    cursor: pointer;
+}
+header {
+    width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+.logo {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.logo * {
+  padding: 6px;
+}
+ul {
+  display: flex;
+  padding-left:0px;
+  padding-right:50px;
+}
+nav {
+    width:40%;
+}
+li {
+  padding: 0px 6px;
+  list-style-type: none;
+  
+}
+.btn {
+    border: 2px solid var(--darkSlateBlue);
+    font-size:20px;
+    color: var(--darkSlateBlue);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    background-color: var(--darkSlateBlue);
+    transition:0.3s;
+    color:var(--lavender);
+}
+#homeBtn {
+    color:var(--darkSlateBlue);
+}
+header h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: black;
+}
+h1 {
+    font-family:'Archivo Black', sans-serif;
+    color: var(--darkSlateBlue);
+    text-transform: uppercase;
+}
+.hero {
+    display:flex;
+    align-items: center;
+    }
