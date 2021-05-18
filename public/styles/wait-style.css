@@ -11,7 +11,7 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url("/public/assets/Fade-In-Background.svg");
+  background-image: url("assets/Fade-In-Background.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height:1000px;
