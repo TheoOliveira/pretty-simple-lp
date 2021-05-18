@@ -11,9 +11,10 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url("/assets/Fade-In-Background.svg");
+  background-image: url("/public/assets/Fade-In-Background.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  height:1000px;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h3 {
 }
 .logo img {
   width: 200px;
+  
 }
 .wait {
   margin: 0 auto;
